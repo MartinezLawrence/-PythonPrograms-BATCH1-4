@@ -3,7 +3,7 @@
 # prompt the user to enter 10 numbers
 # add them all together and print
 
-numbers = 0
+sumnum = 0
 for numbers in range(10):
-    numbers += float(input("Enter a number: "))
-print(numbers)
+    sumnum += float(input("Enter a number: "))
+print(sumnum)
