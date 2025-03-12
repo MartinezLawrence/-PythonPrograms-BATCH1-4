@@ -5,6 +5,6 @@
 # Compare the two numbers
 # Print the bigger number
 
-num1 = float(input("Enter first numer: "))
+num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 print(max(num1, num2))
