@@ -13,9 +13,9 @@ while True:
         
         # Check if the number is in the list
         if number in input_num:
-            print("duplicate") # Display "duplicate" if the input is duplicate
+            print("Duplicate") # Display "Duplicate" if the input is duplicate
         else: 
-            print("unique")    # Display "unique" if the input is unique
+            print("Unique")    # Display "Unique" if the input is unique
 
         # Add the number to the list
         input_num.append(number)
