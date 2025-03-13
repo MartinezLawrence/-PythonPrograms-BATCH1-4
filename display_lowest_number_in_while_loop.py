@@ -16,5 +16,6 @@ while True:
         break       # if the input is not an integer, break out of the loop
 
 # check if any numbers were entered
-# if so, display the lowest number
+if number:
+    print(min(input_num)) # if so, display the lowest number
 
