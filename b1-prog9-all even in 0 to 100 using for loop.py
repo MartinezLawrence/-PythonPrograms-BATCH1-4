@@ -5,4 +5,4 @@
 # if the number is divisible by 2 print that number
 for numbers in range(101):
     if numbers % 2 == 0:
-        print(numbers)
+        print(numbers) # print all even numbers from 0 to 100
