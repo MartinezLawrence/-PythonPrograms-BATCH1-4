@@ -9,4 +9,7 @@ for list_of_numbers in range(10):   # 10 numbers
     numbers.append(int(input("Enter a number: ")))  # Add the numbers to the list
     
 # Use list comprehension to find numbers that appear only once
+unique_numbers = [num for num in numbers if numbers.count(num) == 1]
+
 # Print the numbers without duplicates
+print(unique_numbers)
