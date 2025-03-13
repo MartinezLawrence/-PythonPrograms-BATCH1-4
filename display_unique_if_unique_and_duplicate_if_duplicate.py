@@ -10,10 +10,14 @@ while True:
     try:
         # Get the user input
         number = int(input("Enter a number: "))
+        
+        # Check if the number is in the list
+        if number in input_num:
+            print("duplicate") # Display "duplicate" if the input is duplicate
+        else: 
+            print("unique")    # Display "unique" if the input is unique
+
         # Add the number to the list
         input_num.append(number)
     except ValueError:
-        break
-
-# attempt to convert the input to an integer
-# if the input is not an integer, break out of the loop
+        break       # if the input is not an integer, break out of the loop
